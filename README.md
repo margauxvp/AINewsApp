@@ -1,12 +1,10 @@
 # OpenAIonURL_App
 
-<img width="560" alt="image" src="https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/53f31a05-9a46-4300-a3fc-3cbaaa3c0f41">
+https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/1c472854-ec53-411c-909f-8d3d0b77d1ab
 
 # AI News Chat
 
 This Streamlit-based app allows you to interact with OpenAI's GPT model for getting summaries of recent AI news. Ask any question about AI, and the model will provide you with a summary based on information from Azure Cognitive Search. The source of data that is used for this app is the following URL: https://techcrunch.com/category/artificial-intelligence/
-
-![Untitled video](https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/5ab56fbc-f2cd-41cf-af85-0ab3689ad85d)
 
 ## Setup
 
@@ -61,7 +59,7 @@ This Streamlit-based app allows you to interact with OpenAI's GPT model for gett
 
 3. **Result**: The GPT model's response will be displayed with a styled background.
 
-https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/1c472854-ec53-411c-909f-8d3d0b77d1ab
+<img width="560" alt="image" src="https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/53f31a05-9a46-4300-a3fc-3cbaaa3c0f41">
 
 Feel free to explore and chat about the exciting world of AI news! 🤖
 
