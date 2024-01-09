@@ -18,7 +18,7 @@ https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/1c472854-ec53-411c-
     git clone https://github.com/your-username/ai-news-chat.git
     ```
 
-4. **Create a Virtual Environment**: Create a virtual environment for the project and activate it.
+4. **Create a Virtual Environment**: Create a virtual environment for the project and activate it in your IDEs terminal (e.g. VSCode).
 
     ```bash
     python -m venv venv
