@@ -26,7 +26,7 @@ https://github.com/margauxvp/AINews_App/assets/33750077/8ab9e7da-a525-43fa-85bf-
     python -m venv venv
     ```
     
-5. **Environment Variables**: Create a `.env` file in the project directory with your API keys.
+5. **Environment Variables**: Create a `.env` file in the project directory with your keys.
 
     ```plaintext
     OPENAI_API_KEY=your_openai_api_key
