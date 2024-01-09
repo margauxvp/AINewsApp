@@ -60,6 +60,7 @@ This Streamlit-based app allows you to interact with OpenAI's GPT model for gett
 2. **Ask Button**: Click "Ask about recent AI News" to interact with the GPT model.
 
 3. **Result**: The GPT model's response will be displayed with a styled background.
+
 https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/1c472854-ec53-411c-909f-8d3d0b77d1ab
 
 Feel free to explore and chat about the exciting world of AI news! 🤖
