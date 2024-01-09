@@ -1,4 +1,4 @@
-# OpenAIonURL_App
+# AI News App
 
 https://github.com/margauxvp/OpenAIonURL_App/assets/33750077/1c472854-ec53-411c-909f-8d3d0b77d1ab
 
