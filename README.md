@@ -8,30 +8,44 @@ This Streamlit-based app allows you to interact with OpenAI's GPT model for gett
 
 ## Setup
 
-1. **Environment Variables**: Create a `.env` file in the project directory with your API keys.
+1. **Create Azure AI Search Index**: This can be done very easily using oai.azure.com, where you use the UI to fill an index that supports hybrid search (full-text + vector) for your chosen URL data. It will execute data pre-processing (e.g. chunking) and the vectorization steps with indexation for you. For more information. Read: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=url-web#ingesting-your-data. The full code repository can be found here: https://github.com/microsoft/sample-app-aoai-chatGPT/tree/main
+
+   <img width="1168" alt="image" src="https://github.com/margauxvp/AINewsApp/assets/33750077/02fa4e01-6f43-45dd-922f-32838aabf036">
+
+2. **Clone the Repository**: Clone this repository to your local environment.
+
+    ```bash
+    git clone https://github.com/your-username/ai-news-chat.git
+    ```
+
+3. **Create a Virtual Environment**: Create a virtual environment for the project and activate it.
+
+    ```bash
+    python -m venv venv
+    ```
+    
+4. **Environment Variables**: Create a `.env` file in the project directory with your API keys.
 
     ```plaintext
     OPENAI_API_KEY=your_openai_api_key
     SEARCH_KEY=your_azure_search_key
     ```
 
-2. **Azure OpenAI Configuration**: Customize the parameters in the code:
+5. **Azure OpenAI Configuration**: Customize the parameters in the code:
 
     ```python
     openai.api_base = "your_azure_openai_endpoint"
-    openai.api_key = "your_openai_api_key"
     deployment_id = "your_deployment_id"
     ```
 
-3. **Azure AI Search Configuration**: Provide your Azure AI Search information:
+6. **Azure AI Search Configuration**: Provide your Azure AI Search information:
 
     ```python
     search_endpoint = "your_search_endpoint"
-    search_key = "your_azure_search_key"
     search_index_name = "your_search_index_name"
     ```
 
-4. **BYOD (Bring Your Own Data)**: If using your own data, configure the `setup_byod` function by providing your deployment ID.
+7. **BYOD (Bring Your Own Data)**: If using your own data, configure the `setup_byod` function by providing your deployment ID. This step allows you to use data sources when sending questions to OpenAI.
 
 ## Running the App
 
